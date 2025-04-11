@@ -42,3 +42,4 @@ Let's implement the core API endpoints:  [here](https://github.com/im-caveman/Ya
 # Data Collection Strategies
 ## 1. Scraper Implementation
 Let's create a scraper module that handles different job sources:
+[Yagaami Job Scraper Implementation](https://github.com/im-caveman/Yagaami-API/blob/a103e6e1d18484e48f0edd3779e1b1b38f4dd52a/Scraper%20Implementation.py)
