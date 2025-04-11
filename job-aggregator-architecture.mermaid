@@ -1,0 +1,11 @@
+flowchart TD
+    A[Job Sources] --> B[Scraper Service]
+    B --> C[Data Normalizer]
+    C --> D[(Database)]
+    D --> E[API Server]
+    E --> F[Search API]
+    E --> G[Job Details API]
+    E --> H[Salary Estimation API]
+    I[Rate Limiter] --> B
+    J[Scheduler] --> B
+    K[Cache Layer] --> E
