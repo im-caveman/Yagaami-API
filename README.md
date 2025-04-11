@@ -21,4 +21,16 @@ Let's create the core components:
 
 ![](https://github.com/user-attachments/assets/dee5497c-370f-4470-a6e4-78ba8d4416c8)
 
-more is here.
+# 1. Scraper Service
+The scraper service will:
+- Use a rotating proxy pool to avoid IP blocks
+- Implement different scraping strategies per source
+- Queue and distribute scraping tasks to avoid overwhelming any single source
+- Cache results to minimize duplicate requests
+
+
+# 2. Data Storage
+We'll use:
+1. PostgreSQL for structured data with PostGIS extension for location-based searches
+2. Elasticsearch for fast full-text search capabilities
+3. Redis for caching frequent queries and rate limiting
