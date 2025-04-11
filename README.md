@@ -36,4 +36,4 @@ We'll use:
 3. Redis for caching frequent queries and rate limiting
 
 # 3. API Implementation
-Let's implement the core API endpoints:  [here]()
+Let's implement the core API endpoints:  [here](https://github.com/im-caveman/Yagaami-API/blob/75dfb435187f690a908e8bce67af41fc348ebc26/Yagaami%20API%20Implementation.py)
