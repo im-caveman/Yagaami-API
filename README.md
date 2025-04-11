@@ -37,3 +37,8 @@ We'll use:
 
 # 3. API Implementation
 Let's implement the core API endpoints:  [here](https://github.com/im-caveman/Yagaami-API/blob/75dfb435187f690a908e8bce67af41fc348ebc26/Yagaami%20API%20Implementation.py)
+
+--- 
+# Data Collection Strategies
+## 1. Scraper Implementation
+Let's create a scraper module that handles different job sources:
