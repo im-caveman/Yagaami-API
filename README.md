@@ -7,3 +7,11 @@ We'll create a distributed system that:
 2. Normalizes the data
 3. Stores it in a searchable database
 4. Exposes it through RESTful API endpoints
+
+## Data Sources
+Instead of relying on expensive APIs like JSearch, we'll:
+- Directly scrape major job boards (Indeed, LinkedIn, Glassdoor)
+- Utilize RSS feeds from company career pages
+- Leverage public job board APIs with generous free tiers
+- Implement company career page scrapers for targeted companies
+
