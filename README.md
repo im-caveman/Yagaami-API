@@ -15,3 +15,10 @@ Instead of relying on expensive APIs like JSearch, we'll:
 - Leverage public job board APIs with generous free tiers
 - Implement company career page scrapers for targeted companies
 
+--- 
+# Technical Componenets
+Let's create the core components:
+
+![](https://github.com/user-attachments/assets/dee5497c-370f-4470-a6e4-78ba8d4416c8)
+
+more is here.
